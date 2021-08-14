@@ -1,0 +1,5 @@
+agregarle a la página para cambiar el color de fondo 
+Uno que lo cambie por rgb
+meterle mas cantidad de colores al simple y que sea solo por nombre de colores
+y en cada uno que me permita tipear un color / hex / rgb
+y que me tire el color que se forma
