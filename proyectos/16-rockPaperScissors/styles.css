@@ -1,0 +1,126 @@
+/* desde fonts.google.com busca la fuente y agrega de una y le da la opcion import y pego aca sin
+el tag de style */
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #292C34;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+
+header > h1 {
+    color: #292C34;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.score-board {
+    margin: 20px auto; /* define la distancia arriba y abajo*/
+    border: 3px solid white; /*define el borde del div*/
+    border-radius: 4px; /* le da una curvita a la caja*/
+    text-align: center;
+    width: 200px; /* define el ancho de la caja */
+    color: white; /* color de la font */
+    font-size: 46px;
+    padding: 15px 20px; /* margenes internos del div, 1ero marca de arriba y abajo 2do marca der e izq*/
+    font-family: Asap, sans-serif;
+    position: relative; /* para que los user-label y computer-label se muevan dentro de este div*/
+}
+
+/* clase de user y comp */
+.badge {
+    background: #E2584D;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+/* tenemos que mandar user para un lado y comp para el otro para eso tenemos el ID*/
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+}
+
+/* las manitos */
+
+.choices {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.choice {
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 15px; 
+    display: inline-block; /* pone a las 3 en la misma linea*/
+    transition: all 0.5s ease; /* hace que x ej el hover cambie lento*/
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #000207;
+}
+
+/* redimensiona las imagenes */
+img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#action-message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    font-family: Asap, sans-serif;
+    margin-top: 20px;
+
+}
+
+.green-glow {
+    border: 4px solid #4DCC7D;
+    box-shadow: 0 0 10px #31B43A;  
+}
+
+.red-glow {
+    border: 4px solid #FC121B;
+    box-shadow: 0 0 10px #D01115;  
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292B;  
+}

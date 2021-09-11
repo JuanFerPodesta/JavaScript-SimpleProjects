@@ -1,0 +1,6 @@
+cuando descargue las imagenes todas eran en png pero tenian distintos tamaño en pixeles
+para poder acomodarlas tuve que pasarlas al paint de ahi abrir paint 3d y transformarlas en stickers 
+para que el fondo sea transparente y darles a todas las mismas medidas en pixeles, para que todas entren 
+de mas parejo
+este video me ayudo a solucionarlo
+https://www.youtube.com/watch?v=kM1yBuGnIrA
